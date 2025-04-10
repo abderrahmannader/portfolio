@@ -1,0 +1,168 @@
+*{
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.nav-bar-options{
+    left: 50%;
+    transform: translate(-50%);
+    top: 3%;
+    border-color: #3B4452 !important;
+}
+
+.nav-bar-options h1 {
+    color: #E1E2E4;
+}
+
+.nav-bar-options a:hover{
+    background: -webkit-linear-gradient(180deg,blue, #845CB5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-bar-options a{
+    color: white;
+}
+
+.liner{
+    background-color: #3B4452;
+    padding: 1px;
+}
+
+.MainColorbg{
+    background-color: #111723 !important;
+}
+
+.mainText{
+    letter-spacing: 8px;
+    font-weight: bold;
+    font-size: 60px;
+    background: -webkit-linear-gradient(180deg,blue, #845CB5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    
+}
+.SecondaryText{
+    font-size: 40px;
+}
+
+
+.liner-gradient{
+    
+}
+
+.button-parent{
+    background: -webkit-linear-gradient(180deg,blue, #845CB5);
+    display: inline-block;
+    padding: 5px;
+    
+    
+}
+
+.button-edit{
+    background-color: #111723;
+    color: white;
+    border: 0;
+    transition: 1s;
+}
+
+.button-edit:hover{
+    background-color: transparent;
+    
+}
+
+.Services{
+    background-color: #141B29; 
+    border-color: #3B4452 !important;   
+}
+
+.SkillsIcons{
+    width: 80px;
+}
+
+.IconPlace{
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    
+
+}
+.Skills{
+    background-color: #141B29;
+}
+
+.footerText{
+    letter-spacing: 8px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(180deg,blue, #845CB5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.IconsColor{
+    color: #7B42FF;
+}
+
+.LoadingScreen{
+    background-color: red;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111723;
+}
+
+.fa-spinner {
+    font-size: 90px;
+    color: white;
+
+}
+
+
+@media (max-width: 576px) { 
+
+    .logo-media{
+        font-size: 16px !important;
+    }
+
+    .mainText{
+        font-size: 28px;
+    }
+
+    .text-media{
+        font-size: 15px;
+        width: 100% !important;
+    }
+
+    .SkillsIcons{
+        width: 15%;
+    }
+ }
+
+
+@media (min-width: 768px) { 
+
+ }
+
+
+@media (min-width: 992px) { 
+
+ }
+
+@media (min-width: 1200px) { 
+
+ }
+
+@media (min-width: 1400px) { 
+
+ }
+
+
